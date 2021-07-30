@@ -39,23 +39,15 @@ const CardPosting = ({
   useEffect(() => {
     if (liked) {
       setColorLike("#17c0c2");
-      qtdLikes();
     } else {
       setColorLike("#050607");
-      quantityLike > 0 && setQuantityLike(quantityLike - 1);
     }
   }, [liked]);
 
-  function qtdLikes() {
-    if (quantityLike === 0) {
-      setQuantityLike(() => 1);
-    } else {
-      setQuantityLike(quantityLike + 1);
-    }
-  }
-
-  function alterColor() {
-    setLiked(() => !liked);
+  function like() {
+    setLiked(!liked);
+    !liked && setQuantityLike(quantityLike + 1);
+    liked && quantityLike > 0 && setQuantityLike(quantityLike - 1);
   }
   return (
     <Post>
@@ -93,7 +85,7 @@ const CardPosting = ({
         </div>
       </aside>
       <footer>
-        <div onClick={() => alterColor()}>
+        <div onClick={() => like()}>
           <FiThumbsUp color={colorLike} size={20} /> Curtir
         </div>
         <div>
