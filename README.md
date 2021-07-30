@@ -8,24 +8,21 @@
 <br>
 
 <div align="center">
-<a href="https://crypto-daily.netlify.app/" target="_blank">
+<a href="https://inciclechallenge.netlify.app/" target="_blank">
   <img style="max-width:350px; width: 30%" title="Navegue até o site!" src="./src/Assets/demoNetlify.png">
   </a>
   <br><br>
-    <img src="./src/Assets/imac.png">
 <hr>
 </div><br>
 <h2 id="sobre">🔎 Sobre o Projeto</h2>
-<b>Crypto Daily</b> é uma aplicação front-end web construída com React.js para apresentação de dados sobre criptomoedas. Os dados são obtidos através da API <a href="https://www.coingecko.com/en/api">'Coingecko'</a>. 
-A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento e pela facilidade de criar aplicações performáticas. 
+Simple Web page make with React.js and Typescript. All styles were making with Styled Components library.
 
 <h2 id="tecnologias">⚙️ Tecnologias utilizadas</h2>
-➙ Figma <br>
-➙ React.js / React Hooks
+➙ React.js / React Hooks <br>
+➙ TypeScript
 <h2>📍Bibliotecas adicionais</h2>
-➙ Axios <br>
-➙ React Router <br>
-➙ React-spinkit
+➙ Styled Components <br>
+➙ React-icons
 <h2 id="layout">✨ Layout</h2>
 <div align="center">
 <img src="./src/Assets/previewIncicle.gif">
@@ -33,14 +30,14 @@ A escolha do React se deve a agilidade proporcionada por ele no desenvolvimento 
 <h2>💡Rode na sua máquina</h2>
 
 ```
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/diegomagalhaes-dev/crypto-daily.git
 
-# Instale as dependências
+# Install dependencies 
 $ yarn 
 
-# Inicie a aplicação
+# Run the application
 $ yarn start
 
-# (necessário ter o Node, Yarn e o Git instalados na sua máquina)
+# (You must have Node, Yarn and Git installed on your machine)
 ```
