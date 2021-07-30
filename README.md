@@ -14,20 +14,20 @@
   <br><br>
 <hr>
 </div><br>
-<h2 id="sobre">🔎 Sobre o Projeto</h2>
+<h2 id="sobre">🔎 About the project</h2>
 Simple Web page make with React.js and Typescript. All styles were making with Styled Components library.
 
 <h2 id="tecnologias">⚙️ Tecnologias utilizadas</h2>
 ➙ React.js / React Hooks <br>
 ➙ TypeScript
-<h2>📍Bibliotecas adicionais</h2>
+<h2>📍Additional libraries</h2>
 ➙ Styled Components <br>
 ➙ React-icons
 <h2 id="layout">✨ Layout</h2>
 <div align="center">
 <img src="./src/Assets/previewIncicle.gif">
 </div>
-<h2>💡Rode na sua máquina</h2>
+<h2>💡Run in your machine</h2>
 
 ```
 # Clone this repository
