@@ -1,4 +1,8 @@
 [build]
 base = "."
 command = "npm run build"
+<<<<<<< HEAD
 publish = "./build/"
+=======
+publish = "./build/"
+>>>>>>> 38a90f6397a5e4b6c5806e6a2fc8b5f41f11a81b
