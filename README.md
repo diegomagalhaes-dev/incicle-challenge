@@ -14,10 +14,10 @@
   <br><br>
 <hr>
 </div><br>
-<h2 id="sobre">🔎 About the project</h2>
+<h2 id="sobre">🔎 About this project</h2>
 Simple Web page make with React.js and Typescript. All styles were making with Styled Components library.
 
-<h2 id="tecnologias">⚙️ Tecnologias utilizadas</h2>
+<h2 id="tecnologias">⚙️ Technologies used</h2>
 ➙ React.js / React Hooks <br>
 ➙ TypeScript
 <h2>📍Additional libraries</h2>
