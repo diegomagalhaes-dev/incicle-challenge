@@ -3,9 +3,6 @@ import Background from "../../Assets/background-card-profile.png";
 
 export const StyCardProfile = styled.article`
   width: 100%;
-  max-height: 50vh;
-  height: 100%;
-  position: relative;
 
   background-image: url(${Background});
 
@@ -17,13 +14,21 @@ export const StyCardProfile = styled.article`
   .photo {
     position: absolute;
     z-index: 10;
-    top: 7rem;
-    right: 30%;
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @media (max-width: 950px) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 `;
 
 export const SecondCard = styled.div`
-  margin-top: 65%;
+  margin-top: 12rem;
+  position: relative;
 
   background-color: #fff;
   width: 100%;
@@ -70,8 +75,8 @@ export const SecondCard = styled.div`
 
     padding: 10px 0px 20px 10px;
 
-    column-gap: 50px;
-    row-gap: 5px;
+    column-gap: 4rem;
+    row-gap: .5rem;
   }
 `;
 

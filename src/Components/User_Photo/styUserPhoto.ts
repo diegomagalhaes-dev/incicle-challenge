@@ -11,7 +11,7 @@ export const PhotoUser = styled.div<PhotoUserProps>`
   border-color: blue;
   padding: 2px;
   img {
-    width: ${(props) => props.sizeImage}px;
+      width: ${(props) => props.sizeImage}px;
     height: ${(props) => props.sizeImage}px;
     object-fit: cover;
     border-radius: 50%;
